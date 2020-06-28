@@ -1,0 +1,49 @@
+.WOContainer {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 0.25rem;
+  margin-top: 0.25rem;
+
+  &__header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.25rem;
+
+    &__title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 14px;
+      text-transform: uppercase;
+      color: #5a57cb;
+      width: calc(100% - 30px);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &__dots {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__footer {
+    display: flex;
+    padding: 0.25rem 0;
+    justify-content: flex-end;
+
+    &__plus {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "rootDirs": ["src"],
+    "target": "es5",
+    "lib": ["esnext"],
+    "jsx": "react"
+  },
+  "include": ["src"]
+}
